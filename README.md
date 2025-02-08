@@ -1,10 +1,22 @@
-# Indian Sign Detector
+# Indian Sign Language Detection
 
-This is a python project capable of recognizing and converting Indian Sign Language into words in real-time. 
+## Overview
+[![Watch the Video](https://img.youtube.com/vi/Y4pwogs6H5o/0.jpg)](https://www.youtube.com/shorts/Y4pwogs6H5o)
 
-The project uses a model that has been trained on a dataset of sign language gestures to recognize and interpret the gestures made by the user. It is important to have a way to communicate with people who are deaf or hard of hearing, without the need for an interpreter.
+This project implements an Indian Sign Language (ISL) detection system using OpenCV and deep learning. The system captures hand gestures via a webcam, processes them using a hand-tracking module, and classifies the detected gestures using a trained deep learning model.
 
-## Models used
-OpenCV &
-Tensorflow
+## Features
+- Real-time hand tracking and gesture detection
+- Classification of Indian Sign Language gestures using a trained model
+- Dynamic hand gesture recognition
+- OpenCV-based image processing for accurate predictions
+
+## Model Details
+- **Total parameters**: 538,708
+- **Trainable parameters**: 524,628
+- **Non-trainable parameters**: 14,080
+
+The model has been trained using TensorFlow and Keras, leveraging a sequential architecture optimized for sign language classification.
+
+Feel free to contribute and improve this project!
 
